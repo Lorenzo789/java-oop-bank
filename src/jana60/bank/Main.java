@@ -64,7 +64,7 @@ public class Main {
 		System.out.println(topolino.getBalance());
 		System.out.println(topolino.addMoney(75));
 		System.out.println(topolino.getBalance());
-		System.out.println(topolino.withdrawMoney(20));
+		System.out.println(topolino.withdrawMoney(700));
 		System.out.println(topolino.getBalance());
 		
 		

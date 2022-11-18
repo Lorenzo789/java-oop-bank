@@ -35,16 +35,17 @@ public class Conto {
 			
 			return balance += moneyToAdd;
 		}
-		return balance;
 		
+		return balance;
 	}
 	
 	public int withdrawMoney(int moneyToWithdraw) {
 		
-		if(balance > 0) {
+		if(moneyToWithdraw <= balance) {
 
 			return balance -= moneyToWithdraw;
 		}
+		
 		return balance;
 	}
 	
